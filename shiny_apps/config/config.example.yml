@@ -1,0 +1,6 @@
+# Example app configuration
+# Point these to local paths (not committed) via a copied config.yml
+
+paths:
+  demo_data: "../data/external/demo.rds"
+  full_data_root: "/path/to/full_dataset"
