@@ -1,9 +1,8 @@
-# figures/
+# analysis/
 
-Figure generation.
+Analyses that reproduce the paper’s results.
 
-- `source/` figure scripts (R) and templates
-- `tables/` table scripts and exported CSV/TSV (small)
-- `output/` rendered figures (PNG/PDF/SVG). Commit only final, lightweight assets.
-
-Convention: each figure has one script in `source/` that reads from `analysis/results/` and writes to `output/`.
+- `workflows/` entry scripts (run in order)
+- `scripts/` shared functions/substeps
+- `notebooks/` optional exploration
+- `results/` small final tables/summaries (avoid large intermediates)
