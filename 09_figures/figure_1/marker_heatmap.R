@@ -1,0 +1,10 @@
+library(Seurat)
+library(tidyverse)
+library(customfuncs)
+library(pals)
+library(PRECAST)
+library(glue)
+library(pbmcapply)
+library(patchwork)
+
+setwd("desp1")
